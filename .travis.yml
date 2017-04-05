@@ -1,0 +1,10 @@
+language: bash
+before_script:
+  - echo "before"
+    
+script:
+  - ls
+  - echo "middle"
+    
+after_script:
+  -echo "after"
